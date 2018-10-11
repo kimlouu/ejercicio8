@@ -1,0 +1,54 @@
+.img-logo{
+  width:150px;
+}
+nav{
+  margin-top:40px;
+}
+h1{
+  text-transform: uppercase;
+  font-size: 50px;
+}
+h3{
+  font-size: 19px;
+}
+h4{
+  font-size: 16px;
+  font-weight: bold;
+}
+h6{
+  color:white;
+  font-size: 16px;
+  padding: 30px;
+}
+.img-carousel{
+  width: 100%;
+}
+.carousel-caption {
+  right: 25%;
+  left: 25%;
+}
+.carousel-caption p{
+  margin-top: 20px;
+  padding: 0 30px;
+}
+.header-btn{
+  margin:20px 10px;
+}
+.navbar-default{
+
+}
+#prefooter{
+  margin: 70px auto;
+}
+#prefooter .row{
+  margin: auto;
+}
+#prefooter p{
+  font-size: 13px;
+}
+#prefooter a{
+  color: #399be8;
+}
+footer{
+  background-color: black;
+}
