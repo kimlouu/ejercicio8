@@ -1,54 +1,111 @@
-.img-logo{
-  width:150px;
+.img-logo {
+    width: 150px;
 }
-nav{
-  margin-top:40px;
+
+nav {
+    margin-top: 40px;
 }
-h1{
-  text-transform: uppercase;
-  font-size: 50px;
+
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
 }
-h3{
-  font-size: 19px;
+
+h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
 }
-h4{
-  font-size: 16px;
-  font-weight: bold;
+
+h3 {
+    font-size: 19px;
 }
-h6{
-  color:white;
-  font-size: 16px;
-  padding: 30px;
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
 }
-.img-carousel{
+
+h5 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h6 {
+    color: white;
+    font-size: 16px;
+    padding: 30px;
+}
+
+.img-carousel {
+    width: 100%;
+}
+
+.carousel-caption {
+    right: 25%;
+    left: 25%;
+}
+
+.carousel-caption p {
+    margin-top: 20px;
+    padding: 0 30px;
+}
+
+.header-btn {
+    margin: 20px 10px;
+}
+
+.navbar-default {}
+
+#carousel-example-generic{
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.img-slider{
   width: 100%;
 }
-.carousel-caption {
-  right: 25%;
-  left: 25%;
+/*equipo*/
+#equipo{
+  text-align: center;
 }
-.carousel-caption p{
-  margin-top: 20px;
-  padding: 0 30px;
+.img-inscripcion{
+  max-width: 400px;
+  width: 100%;
 }
-.header-btn{
-  margin:20px 10px;
-}
-.navbar-default{
 
+/*Sección inscripción*/
+.jumbotron {
+    background-color: #fafafa;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 0;
 }
-#prefooter{
-  margin: 70px auto;
+
+.jumbotron p {
+    margin-top: 20px;
+    font-size: 13px;
 }
-#prefooter .row{
-  margin: auto;
+
+.inscribete {
+    text-align: center;
 }
-#prefooter p{
-  font-size: 13px;
+
+/*Sección prefooter*/
+#prefooter {
+    margin: 70px auto;
 }
-#prefooter a{
-  color: #399be8;
+
+#prefooter p {
+    font-size: 13px;
 }
-footer{
-  background-color: black;
+
+#prefooter a {
+    color: #399be8;
+}
+
+/*Sección footer*/
+footer {
+    background-color: black;
 }
