@@ -36,14 +36,24 @@ h6 {
     font-size: 16px;
     padding: 30px;
 }
-
-.img-carousel {
-    width: 100%;
+.nav li a{
+  color:#999999;
 }
-
-.carousel-caption {
-    right: 25%;
-    left: 25%;
+.carousel-inner{
+    height: 78vh;
+}
+.carousel-caption{
+  top:0;
+  margin-top: 90px;
+  overflow: hidden;
+  right: 25%;
+  left: 25%;
+}
+.img-slider {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 0;
 }
 
 .carousel-caption p {
@@ -108,4 +118,10 @@ h6 {
 /*Sección footer*/
 footer {
     background-color: black;
+}
+
+@media (min-width: @screen-sm-min){
+  h1 {
+    font-size: 30px;
+  }
 }
